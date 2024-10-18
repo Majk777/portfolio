@@ -1,0 +1,19 @@
+.hobby-wrapper {
+  /* font-family: "Rubik", sans-serif; */
+  font-family: "League Gothic", sans-serif;
+  color: #f11348;
+  font-size: x-large;
+}
+.hobby-header {
+  font-family: Akira;
+  /* font-size: xxx-large; */
+}
+img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.images-list {
+  columns: 300px;
+}
+.switch-hobbbies--wrapper button {
+}

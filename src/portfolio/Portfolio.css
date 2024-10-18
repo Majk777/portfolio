@@ -1,0 +1,76 @@
+.mern-images {
+  margin: 0;
+}
+.margerino {
+  margin: 15px;
+}
+.bannerscreen {
+  background-image: url("../assets/portfolio/screenvinylteka.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.portfolio {
+  font-family: "League Gothic", sans-serif;
+  color: #f11348;
+  font-size: x-large;
+}
+.biggscreen {
+  background-image: url("../assets/portfolio/biggscreen.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.vertikal {
+  font-family: Akira;
+  top: 0;
+  left: 0;
+
+  transform: translate(0%, 500%) rotate(-90deg);
+}
+@media (min-width: 640px) {
+  .screentransition {
+    transition: 1s ease-out;
+    filter: grayscale(100%);
+  }
+  .screentransition:hover {
+    filter: grayscale(0%);
+  }
+}
+
+.portfolio h1 {
+  font-family: Akira;
+}
+.bannerscreen-whereto {
+  background-image: url("../assets/portfolio/wheretobanna.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.biggscreen-whereto {
+  background-image: url("../assets/portfolio/collagewhereto.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.biggscreen-firebase {
+  background-image: url("../assets/portfolio/firbasecollage.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/* collagewhereto */
+.bannerscreen-firebase {
+  background-image: url("../assets/portfolio/bannerfirebase.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.others li {
+  list-style: disc;
+}
+.others h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+.neon-buttons-git {
+  color: white;
+
+  padding: 10px 0;
+  text-shadow: 0 0 5px var(--test), 0 0 10px var(--test), 0 0 20px var(--test),
+    0 0 40px var(--test), 0 0 80px var(--test);
+}

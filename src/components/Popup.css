@@ -1,0 +1,94 @@
+.popup {
+  top: 0;
+  background-color: #130729;
+  animation: popupfading 1.5s ease-out 6000ms;
+  z-index: 2;
+}
+.popup-blowup {
+  height: 2px;
+  width: 100%;
+  /* left: 50%; */
+  bottom: 50%;
+  transform: translate(0%, 50%);
+  animation: name duration timing-function delay iteration-count direction
+    fill-mode;
+}
+.popup-left--loader {
+  /* background-color: rgb(95, 226, 43); */
+  height: 100%;
+  /* width: 100%; */
+  /* animation-delay: 5000ms; */
+  animation: loading 2000ms ease 3000ms;
+}
+.popup-right__blow--loader {
+  /* background-color: blueviolet; */
+  height: 100%;
+  width: 0%;
+  animation: loading 2000ms ease 3000ms;
+}
+.sun-loader {
+  box-shadow: 1px 1px 20px 15px #f81d54;
+  border-radius: 100%;
+  /* border-radius: 15px 50px 30px 5px; */
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  animation: sun 5000ms;
+}
+.popup-blowup-screen {
+  background: #ffffff;
+  width: 100%;
+  opacity: 0;
+  animation: blow 1ms ease-out 5500ms;
+  /* animation: blow 1ms ease-out 5500ms; */
+  z-index: 1;
+}
+/* .popup-left--loader {
+  float: left;
+} */
+@keyframes loading {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes sun {
+  0% {
+    bottom: 0%;
+    width: 160px;
+    height: 160px;
+  }
+  50% {
+    bottom: 50%;
+    width: 160px;
+    height: 160px;
+  }
+  100% {
+    width: 1px;
+    height: 1px;
+  }
+}
+@keyframes blow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes popupfading {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* Animacja na cały popup, żeby opacity dać żeby było widoczna strona główna, a potem w js jakiś settimeout i <Popup/> == false */
+/* useState(popupState, setpopupState) = true */

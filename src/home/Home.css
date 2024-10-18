@@ -1,0 +1,23 @@
+.bg-horizon {
+  height: 2px;
+  width: 100%;
+  top: 29%;
+  box-shadow: 1px 1px 20px 15px #f81d54;
+  z-index: 1;
+}
+.sun {
+  box-shadow: 1px 1px 20px 15px #f81d54;
+  border-radius: 100%;
+  /* border-radius: 15px 50px 30px 5px; */
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.synth-background {
+  font-size: large;
+  background-color: #130729;
+  top: 28%;
+  z-index: 0;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
