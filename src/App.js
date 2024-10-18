@@ -8,7 +8,7 @@ import Portfolio from "./portfolio/Portfolio";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
         <Navbar />
 
         <Routes>
